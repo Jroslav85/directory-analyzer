@@ -7,9 +7,8 @@ public class View {
 		this.pathName = pathName;
 	}
 
-	public void outConsole(int countFile, int countDir) {
-		System.out.println(" Path Name " + pathName);
-		System.out.println("# amount file " + countFile);
-		System.out.println("# amount dir " + countDir);
+	public String outConsole(int countFile, int countDir) {
+		return " Path Name " + pathName + "\n" + "# amount file " + countFile + "\n"
+				+ "# amount dir " + countDir + "\n";
 	}
 }

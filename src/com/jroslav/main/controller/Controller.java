@@ -12,7 +12,7 @@ public class Controller {
 		this.view = view;
 	}
 	
-	public void dataDispley() {
-		view.outConsole(analizer.getCountFile(), analizer.getCountDir());
+	public String dataDispley() {
+		return view.outConsole(analizer.getCountFile(), analizer.getCountDir());
 	}
 }
